@@ -1,0 +1,15 @@
+
+
+  <div class="list-container">
+      <h4>Movie List StoryKit</h4>
+    <app-moviesearch (newItemEvent)="searchMovie($event)" [loading]="loading"></app-moviesearch>
+    <mat-list>
+
+      <mat-list-item *ngFor="let movie of movieList; let i = index">
+        {{ i + 1 }}. {{movie.title}}
+        <app-stargrading [grade]="movie.grade" [id]="movie.id"></app-stargrading>
+      </mat-list-item>
+    </mat-list>
+  </div>
+
+

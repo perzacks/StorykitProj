@@ -1,0 +1,11 @@
+<form class="example-form">
+  <mat-form-field class="example-full-width display-flex-mat" >
+    <input
+      matInput
+      placeholder="Search"
+      (keyup)="searchMovie($event)">
+
+     <mat-spinner *ngIf="loading" matSuffix diameter="20" style="display: inline-flex"></mat-spinner>
+
+  </mat-form-field>
+</form>

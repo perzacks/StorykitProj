@@ -1,0 +1,14 @@
+.mat-list-base {
+  min-width: 500px;
+}
+
+h4 {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  color: #fff;
+  text-align: center;
+  font-weight: 500;
+}
+
+.mat-list-option:not(.mat-list-item-disabled) {
+  cursor: default;
+}
