@@ -6,7 +6,7 @@
 
 
 
-Compile Apks Guide
+Start guide
 --------------------------------------
 
 To start the api run npm start 
